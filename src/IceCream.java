@@ -5,9 +5,9 @@ public class IceCream
 public static void main(String[]args)
 {
 	Scanner scan=new Scanner(System.in);
-	Flavors.GetFlavors();
+	Flavors.ListFlavors();
 	System.out.println("What flavor of ice cream is your favorite?");
-	String flavor=scan.nextLine();
+	int flavor=scan.nextInt();
 	Flavors flavorobject=new Flavors(flavor);
 	
 	
