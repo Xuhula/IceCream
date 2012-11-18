@@ -5,7 +5,7 @@ public class Flavors {
 		int favorite=flavors;
 		if (flavors>=1 && flavors<=5)
 		{
-			System.out.println("Your favorite ice cream flavor is " +this.flavors[flavors]);
+			System.out.println("Your favorite ice cream flavor is " +this.flavors[favorite]);
 		}
 		else
 			{
@@ -23,7 +23,7 @@ public class Flavors {
 	}
 	public String getFlavors()
 	{
-		return "Your flavor is" +flavors[Flavors.Flavors.favorite];
+		return "Your flavor is" +flavors[Flavors.];
 		
 	}
 	}
