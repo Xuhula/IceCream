@@ -23,7 +23,7 @@ public class Flavors {
 	}
 	public String getFlavors()
 	{
-		return "Your flavor is" +flavors[Flavors];
+		return "Your flavor is" +flavors[Flavors.Flavors.favorite];
 		
 	}
 	}
