@@ -78,11 +78,11 @@ public class Flavors {
 	{
 		if (nuts==true)
 		{
-			message += "nuts, ";
+		message += "nuts, ";
 		}
 	    if (syrup==true)
 	    {
-			message += "syrup, ";
+		message += "syrup, ";
 	    }
 	    message+="ice cream.";
 	    return message;
